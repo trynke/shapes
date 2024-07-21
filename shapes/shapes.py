@@ -11,7 +11,7 @@ shapes.py
     - Пользовательское исключение 'InvalidDimensionError' для ошибок, связанных с размерами фигур.
 
 Пример использования:
-    >>> from geometric_shapes import Circle, Triangle
+    >>> from shapes import Circle, Triangle
     >>> circle = Circle(5)
     >>> print(circle.get_area())
     >>> triangle = Triangle(3, 4, 5)
