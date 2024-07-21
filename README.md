@@ -4,13 +4,13 @@
 
 ## :computer: Использование
 Библиотека написана на чистом Python. Для начала работы необходимо загрузить файлы из репозитория к себе локально.
-После этого устанавливаем библиотеку с помощью pip:
+После этого, находясь в каталоге с данной библиотекой, устанавливаем её с помощью pip:
 ```bash
-$ pip install -e .
+$ pip install .
 ```
 Пример использования:
 ```python
-from shapes import Circle, Triangle
+from shapes.shapes import Circle, Triangle
 circle = Circle(5)
 print(circle.get_area())
 triangle = Triangle(3, 4, 5)
